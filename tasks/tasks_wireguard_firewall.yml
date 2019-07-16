@@ -97,7 +97,7 @@
         tags:
           - wireguard
 
-     when: ansible_distribution == 'Debian' or ansible_distribution == 'Ubuntu'
+    when: ansible_distribution == 'Debian' or ansible_distribution == 'Ubuntu'
 
   when: wg_firewall == "iptables"
 
